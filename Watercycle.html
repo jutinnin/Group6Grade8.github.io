@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group6 8-Ecclesiastes - Alfonso</title>
+    <style>
+    * {
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    .navbar {
+        background: rgb(58, 150, 255);
+        font-family: Arial;
+        padding-right: 25px;
+        padding-left: 25px;
+        height: 60px; 
+        box-sizing: border-box;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .navdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .logo a {
+        font-size: 50px;
+        font-weight: 600;
+        color: white;
+        line-height: 60px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    li {
+        list-style: none;
+        margin: 0 15px;
+    }
+
+    li a {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    body {
+        margin: 0;
+        padding-top: 60px;
+        font-family: Verdana; 
+    }
+
+    .menu, .main, .right {
+        box-sizing: border-box;
+    }
+
+    .menu {
+        float: left;
+        width: 20%;
+    }
+
+    .menuitem {
+        padding: 8px;
+        margin-top: 7px;
+        border-bottom: 1px solid #f1f1f1;
+    }
+
+    .main {
+        float: left;
+        width: 60%;
+        padding: 0 20px;
+        overflow: hidden;
+    }
+
+    .right {
+        background-color: lightblue;
+        float: left;
+        width: 20%;
+        padding: 10px 15px;
+        margin-top: 7px;
+    }
+
+    @media only screen and (max-width:800px) {
+        .main {
+            width: 80%;
+            padding: 0;
+        }
+        .right {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width:500px) {
+        .menu, .main, .right {
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="#">Upon A Rain</a></div>
+                <ul>
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="Essential.html">Essential Elements</a></li>
+                    <li><a href="water cycle.html">Water Cycle</a></li>
+                    <li><a href="Interactive.html">Interactive Elements</a></li>
+                    <li><a href="Reference.html">Reference Page</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div style="background-color:#f1f1f1;padding:15px;">
+        <h1>Water Cycle</h1>
+        <h3>What is Watercycle?</h3>
+    </div>
+
+    <div style="overflow:auto">
+        <div class="menu">
+            <div class="menuitem">Evaporation</div>
+            <div class="menuitem">Condensation</div>
+            <div class="menuitem">Precipitation</div>
+            <div class="menuitem">Collection</div>
+        </div>
+
+        <div class="main">
+            <h2>Water Cycle</h2>
+            <p>The water cycle shows the continuous movement of water within the Earth and atmosphere.
+            It is a complex system that includes many different processes.Liquid water evaporates into water vapor,
+            condenses to form clouds, and precipitates back to earth in the form of rain and snow.</p>
+            <img src="watercycle.gif" style="width:100%">
+        </div>
+
+        <div class="right">
+            <h2>How?</h2>
+            <p>It is a complex system that includes many different processes. Liquid water evaporates into water vapor,
+            condenses to form clouds, and precipitates back to earth in the form of rain and snow.</p>
+            <h2>Where?</h2>
+            <p>A fundamental characteristic of the hydrologic cycle is that it has no beginning an it has no end.</p>
+            <h2>When?</h2>
+            <p>The water cycle occurs all the time.</p>
+        </div>
+    </div>
+
+    <div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"></div>
+    <!--reference-https://www.google.com/url?sa=i&url=https%3A%2F%2Fmakeagif.com%2Fgif%2Fwater-cycle-
+    pNIceB&psig=AOvVaw2PEQy1nxsEkKU-umSYUpd9&ust=1723804066882000&source=images&cd=vfe&opi=89978449&ved=
+    0CBEQjRxqFwoTCPimyNrk9ocDFQAAAAAdAAAAABAE -->
+</body>
+</html>
